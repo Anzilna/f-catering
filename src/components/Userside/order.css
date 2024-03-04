@@ -1,0 +1,46 @@
+/* styles.css */
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    width: 15%;
+    height: fit-content;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-content {
+    padding: 20px 0;
+    color: #666;
+  }
+  
+  .card-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card-button:hover {
+    background-color: #45a049;
+  }
+  
